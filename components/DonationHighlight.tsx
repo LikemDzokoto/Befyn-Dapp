@@ -17,7 +17,7 @@ function DonationHighlight({
             </p>
             <p className="mt-1 text-lg font-normal text-gray-700">
               {" "}
-              ETH in donations was sent just now!
+              ETH insurance just paid
             </p>
           </div>
         </div>

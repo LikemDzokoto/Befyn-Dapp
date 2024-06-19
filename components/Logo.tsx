@@ -8,7 +8,7 @@ function Logo() {
       title=""
       className="flex items-center space-x-1 hover:opacity-75"
     >
-      <img className=" w-12 h-12" src="/images/blogo.jpg" alt="" />
+      <img className=" w-12 h-12" src="/images/befyn.jpg" alt="" />
       <h1 className=" font-inter text-green-rich font-semibold tracking-wider">
        
       </h1>
