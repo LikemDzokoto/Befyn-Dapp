@@ -1,8 +1,8 @@
 [     
     {
         "_format": "hh-sol-artifact-1",
-        "contractName": "CharityRegistry",
-        "sourceName": "contracts/CharityRegistry.sol",
+        "contractName": "BefynContract",
+        "sourceName": "contracts/BefynInsurance.sol",
         "abi": [
 
     
@@ -756,6 +756,6 @@
 		"type": "function"
 	}
 ]
-}
+},
 
 ]

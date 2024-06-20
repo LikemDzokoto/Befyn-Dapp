@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import {
-  CHARITY_REGISTRY_CONTRACT_ABI,
+  CONTRACT_ABI,
   CONTRACT_ADDRESS,
 } from "../utils/constants";
 
@@ -58,7 +58,7 @@ export function loadContract() {
 
     const contract = new ethers.Contract(
       CONTRACT_ADDRESS,
-      CHARITY_REGISTRY_CONTRACT_ABI,
+      CONTRACT_ABI,
       alchemyProvider
     );
 
@@ -77,7 +77,7 @@ export function loadContractWithSigner() {
     if (signer) {
       const contract = new ethers.Contract(
         CONTRACT_ADDRESS,
-        CHARITY_REGISTRY_CONTRACT_ABI,
+        CONTRACT_ABI,
         signer
       );
 

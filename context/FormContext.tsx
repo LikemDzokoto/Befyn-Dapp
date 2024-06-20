@@ -3,7 +3,7 @@ import detectEthereumProvider from "@metamask/detect-provider";
 import { ethers } from "ethers";
 import React, { createContext, useContext, useEffect, useState } from "react";
 import {
-  CHARITY_REGISTRY_CONTRACT_ABI,
+  CONTRACT_ABI,
   CONTRACT_ADDRESS,
 } from "../utils/constants";
 import { loadContractWithSigner } from "../utils/interactions";
