@@ -11,7 +11,7 @@ const ETHER_SCAN_API_KEY = process.env.ETHER_SCAN_API_KEY;
 // provider
 function getProvider() {
   const alchemyProvider = new ethers.providers.AlchemyProvider(
-    "goerli",
+    "sepolia",
     API_KEY
   );
   return alchemyProvider;

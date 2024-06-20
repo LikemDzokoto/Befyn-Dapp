@@ -220,7 +220,7 @@ function Donate({
                 </a>
               </p>
               <p className="mt-2 text-base font-medium text-gray-500">
-                You are about to People First? You are a real one!
+                You are about to BeFyn? You are a real one!
               </p>
             </div>
 

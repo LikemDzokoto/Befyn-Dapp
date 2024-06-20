@@ -176,7 +176,7 @@ function Donation({
 
       <div className="px-4 lg:py-4 sm:px-6 lg:col-span-2">
         <a
-          href={`https://goerli.etherscan.io/address/${address}#internaltx`}
+          href={`https://sepolia.etherscan.io/address/${address}#internaltx`}
           target="_blank"
           rel="noreferrer"
         >

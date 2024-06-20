@@ -55,7 +55,7 @@ function Charity({
             />
             {/* NOTE: link below will change in production */}
             <a
-              href={`https://goerli.etherscan.io/address/${wallet}#internaltx`}
+              href={`https://sepolia.etherscan.io/address/${wallet}#internaltx`}
               target="_blank"
               rel="noreferrer"
               title=""
@@ -189,7 +189,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
               alt=""
             />
             <a
-              href={`https://goerli.etherscan.io/address/`}
+              href={`https://sepolia.etherscan.io/address/`}
               target="_blank"
               rel="noreferrer"
               title=""

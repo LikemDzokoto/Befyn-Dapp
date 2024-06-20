@@ -18,11 +18,11 @@ function About() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto xl:max-w-4xl">
             <h1 className="text-3xl font-bold text-gray-900 mt-7 sm:text-4xl xl:text-5xl font-pj">
-              About People First
+              About BeFyn
             </h1>
             <p className="inline-flex items-center px-3 py-2 mt-7 text-sm font-pj font-medium text-green rounded-xl bg-green-soft">
               {" "}
-              # The Green Charity Transparency Platform{" "}
+              # # The permissionless health financing and claim proving insurance protocol{" "}
             </p>
 
             <div className="mt-10">
@@ -184,7 +184,7 @@ function About() {
 
             <div className="mt-10">
               <p className="text-base font-normal leading-7 text-gray-700 font-pj">
-                Welcome to People First, a revolutionary web3 dapp that
+                Welcome to BeFyn, a revolutionary web3 dapp that
                 allows donors to make direct, transparent and secure donations
                 to a wide range of trusted charities of their choosing. Our
                 platform is built on the blockchain, which ensures that all
@@ -220,7 +220,7 @@ function About() {
                 How it Works
               </h2>
               <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                People First is built on the Ethereum blockchain and allows
+                BeFyn is built on the Ethereum blockchain and allows
                 donations to be made in Ether (ETH), the native cryptocurrency
                 of the Ethereum network. Our platform is designed to be easy to
                 use, even for those who are new to blockchain technology.
@@ -286,10 +286,10 @@ function About() {
               </p>
 
               <h2 className="mt-16 text-3xl font-bold text-gray-900 font-pj">
-                The Future of People First
+                The Future of BeFyn
               </h2>
               <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                At People First, we are committed to continuously improving
+                At BeFyn, we are committed to continuously improving
                 and evolving our platform. We plan to expand the list of
                 charities on our platform, as well as adding new features such
                 as the ability for donors to track the impact of their

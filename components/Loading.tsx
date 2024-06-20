@@ -38,7 +38,7 @@ function Loading() {
             <div className="w-screen h-screen flex justify-center items-center bg-white">
               <img
                 className="w-11 h-11 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
-                src="/images/plant.gif"
+                src="/images/befyn.mp4"
                 alt=""
               />
             </div>

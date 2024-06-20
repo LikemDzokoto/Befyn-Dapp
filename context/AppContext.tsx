@@ -66,7 +66,7 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
                 params: [
                   {
                     chainId: "0xAA36A7",
-                    chainName: "goerli Test network",
+                    chainName: "sepolia Test network",
                     rpcUrls: ["hhttps://eth-sepolia.g.alchemy.com/v2/x2hC9QfiIYGJf4mQWfu6bQgLvrOegki2"],
                     blockExplorerUrls: ["https://sepolia.etherscan.io/"],
                     nativeCurrency: {
