@@ -39,7 +39,7 @@ function Causes({ charities }: { charities: Charity[] }) {
   return (
     <div>
       <Head>
-        <title>Befyn - Causes</title>
+        <title>Befyn </title>
         <meta
           name="description"
           content="# The permissionless health financing and claim proving insurance protocol"
@@ -53,10 +53,10 @@ function Causes({ charities }: { charities: Charity[] }) {
             <div className="text-center md:flex md:items-end md:space-x-6 md:justify-between md:text-left">
               <div className="flex-1 max-w-sm mx-auto md:mx-0">
                 <h2 className="text-2xl font-bold text-gray-800">
-                  Featured Causes 💚
+                  Select a Premium Package
                 </h2>
                 <p className="mt-4 text-base font-medium text-gray-500">
-                  Empower positive impact, explore green communities.
+                 
                 </p>
               </div>
 

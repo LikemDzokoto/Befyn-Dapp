@@ -1,5 +1,4 @@
-"use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 
 interface ModalProps {
   children: React.ReactNode;
@@ -9,14 +8,21 @@ interface ModalProps {
 }
 
 function Modal({ children, overlayHeader, isOpen, onClose }: ModalProps) {
-  //   const [isModalOpen, setIsModalOpen] = useState(isOpen);
+  const [isModalOpen, setIsModalOpen] = useState(isOpen);
+
+  useEffect(() => {
+    setIsModalOpen(isOpen);
+  }, [isOpen]);
+
+  useEffect(() => {
+    return onClose;
+  }, []);
 
   return (
     <>
-      {isOpen && (
+      {isModalOpen && (
         <div
           id="wrapper"
-          // Added z-40 to elevate the modal above the header
           className={`fixed inset-0 ${
             overlayHeader ? "z-40" : "z-20"
           } h-full bg-gray-100 bg-opacity-30 backdrop-blur-[3px] flex justify-center items-center`}
@@ -26,7 +32,6 @@ function Modal({ children, overlayHeader, isOpen, onClose }: ModalProps) {
             <div
               className="w-full max-w-sm bg-white shadow-lg rounded-xl"
               onClick={(e) => {
-                // do not close modal if anything inside modal content is clicked
                 e.stopPropagation();
               }}
             >
