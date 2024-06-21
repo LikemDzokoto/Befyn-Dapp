@@ -49,18 +49,18 @@ function DefaultDonation() {
           {compressAddress("0x9ee328c361d992A4F2B722EbeD84d82B21719858")}
         </p>
         <p className="mt-1 text-sm font-medium text-gray-500">
-          Charity Address
+          Payment Address
         </p>
       </div>
 
       <div className="px-4 lg:py-4 sm:px-6">
-        <p className="text-sm font-bold text-gray-800">02.94 ETH</p>
-        <p className="mt-1 text-sm font-medium text-gray-500">Jan 17, 2022</p>
+        <p className="text-sm font-bold text-gray-800">0.01 ETH</p>
+        <p className="mt-1 text-sm font-medium text-gray-500">June 20, 2024</p>
       </div>
 
       <div className="px-4 lg:py-4 sm:px-6">
         <p className="mt-1 text-sm font-medium text-gray-500">
-          African Climate Fund
+          Premium A Package
         </p>
       </div>
     </div>
@@ -178,9 +178,9 @@ function DashboardDonations({
       <div className="px-4 py-5 sm:p-6">
         <div className="sm:flex sm:items-start sm:justify-between">
           <div>
-            <p className="text-base font-bold text-gray-800">Your Donations</p>
+            <p className="text-base font-bold text-gray-800">Your Transactions</p>
             <p className="mt-1 text-sm font-medium text-gray-500">
-              Recent donations to your favorite causes.
+              Recent Premium Transactions.
             </p>
           </div>
 
