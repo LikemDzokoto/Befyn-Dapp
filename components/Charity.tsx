@@ -162,7 +162,7 @@ function Charity({
               type="button"
               className="inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-green border border-transparent rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700 opacity-60 cursor-not-allowed pointer-events-none"
             >
-              Donate
+           Deposit Premium
             </button>
           )}
         </div>
@@ -196,13 +196,13 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
               className="ml-2 text-sm font-medium text-gray-900"
             >
               {" "}
-              0xdd...2e08{" "}
+              0xA02.....Ef0f{" "}
             </a>
           </div>
 
           <span className="px-2 py-1.5 text-xs font-medium text-white rounded bg-red-400">
             {" "}
-            Inactive{" "}
+            active{" "}
           </span>
         </div>
 
@@ -225,7 +225,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             <div className="flex items-center space-x-1">
               <a href="#" title="">
                 {" "}
-                The African Climate Fund{" "}
+                Premium Insurance A{" "}
               </a>
               {isHovered ? (
                 <img
@@ -243,7 +243,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             </div>
           </div>
           <p className="mt-2 text-sm font-medium text-green">
-            Total Donation 1.903 ETH
+           0.01ETH
           </p>
         </div>
 
@@ -252,7 +252,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             type="button"
             className="md:whitespace-nowrap inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 bg-transparent border border-gray-300 rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:border-gray-900 hover:bg-gray-900 hover:text-white"
           >
-            See More
+            
           </button>
 
           {/* <button
@@ -266,7 +266,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             type="button"
             className="inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-green border border-transparent rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700 opacity-60 cursor-not-allowed pointer-events-none"
           >
-            Donate
+           Pay Insurance
           </button>
         </div>
       </div>
