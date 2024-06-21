@@ -8,11 +8,7 @@ import {
 } from "../utils/constants";
 import { loadContractWithSigner } from "../utils/interactions";
 import { AppContext } from "./AppContext";
-// import React, { useState, useContext } from 'react';
-// import { useEffect } from 'react';
-// import { EthersProvider, useEthers } from '@ethers-react/core';
-// import { Contract } from 'ethers';
-// import { Form } from './AddCharityForm';
+
 
 export const FormContext = createContext({
   formData: {
