@@ -109,7 +109,7 @@ function Charity({
             </div>
           ) : (
             <div className="flex items-center">
-              <p className="text-sm font-medium text-gray-500">Defunct</p>
+              <p className="text-sm font-medium text-gray-500"></p>
             </div>
           )}
           <div className="mt-2 text-base font-bold text-gray-900">
@@ -219,13 +219,100 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
 
         <div className="mt-4">
           <div className="flex items-center">
-            <p className="text-sm font-medium text-gray-500">Defunct</p>
+            <p className="text-sm font-medium text-gray-500"></p>
           </div>
           <div className="mt-2 text-base font-bold text-gray-900">
             <div className="flex items-center space-x-1">
               <a href="#" title="">
                 {" "}
-                Premium Insurance A{" "}
+                Premium Insurance B{" "}
+              </a>
+              {isHovered ? (
+                <img
+                  className="w-5 h-5"
+                  src="/images/verified-animated.gif"
+                  alt="verified"
+                />
+              ) : (
+                <img
+                  className="w-5 h-5 "
+                  src="/images/verified.png"
+                  alt="verified"
+                />
+              )}
+            </div>
+          </div>
+          <p className="mt-2 text-sm font-medium text-green">
+           0.02ETH
+          </p>
+        </div>
+
+        <div className="flex items-center justify-between mt-4 space-x-4">
+          <button
+            type="button"
+            className="md:whitespace-nowrap inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 bg-transparent border border-gray-300 rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:border-gray-900 hover:bg-gray-900 hover:text-white"
+          >
+            
+          </button>
+
+          {/* <button
+            type="button"
+            className="inline-flex xitems-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-green border border-transparent rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700"
+            onClick={toggleModal}
+          >
+            Donate
+          </button> */}
+          <button
+            type="button"
+            className="inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-green border border-transparent rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700 opacity-60 cursor-not-allowed pointer-events-none"
+          >
+           Pay Insurance
+          </button>
+        </div>
+        <div className="flex items-center">
+            <img
+              className="object-cover w-5 h-5 rounded-full shrink-0"
+              src="/images/author.png"
+              alt=""
+            />
+            <a
+              href={`https://sepolia.etherscan.io/address/`}
+              target="_blank"
+              rel="noreferrer"
+              title=""
+              className="ml-2 text-sm font-medium text-gray-900"
+            >
+              {" "}
+              0xA02.....Ef0f{" "}
+            </a>
+          </div>
+
+          <span className="px-2 py-1.5 text-xs font-medium text-white rounded bg-red-400">
+            {" "}
+            active{" "}
+          </span>
+        </div>
+
+        <div
+          title=""
+          className="block mt-4 overflow-hidden rounded-lg aspect-w-3 aspect-h-2"
+        >
+          <img
+            className="object-cover w-full h-full"
+            src="https://cdn.pixabay.com/photo/2016/11/29/08/51/forest-1868529_960_720.jpg"
+            alt=""
+          />
+        </div>
+
+        <div className="mt-4">
+          <div className="flex items-center">
+            <p className="text-sm font-medium text-gray-500"></p>
+          </div>
+          <div className="mt-2 text-base font-bold text-gray-900">
+            <div className="flex items-center space-x-1">
+              <a href="#" title="">
+                {" "}
+                Premium Insurance B{" "}
               </a>
               {isHovered ? (
                 <img
@@ -270,7 +357,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
           </button>
         </div>
       </div>
-    </div>
+    
   );
 }
 
