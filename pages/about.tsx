@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <Head>
-        <title> About</title>
+        <title> About Us</title>
         <meta
           name="description"
           content="Secure your health, share the wealth"
@@ -22,7 +22,8 @@ function About() {
             </h1>
             <p className="inline-flex items-center px-3 py-2 mt-7 text-sm font-pj font-medium text-green rounded-xl bg-green-soft">
               {" "}
-              # # The permissionless health financing and claim proving insurance protocol{" "}
+              # The permissionless health financing and claim proving insurance
+              protocol{" "}
             </p>
 
             <div className="mt-10">
@@ -184,131 +185,76 @@ function About() {
 
             <div className="mt-10">
               <p className="text-base font-normal leading-7 text-gray-700 font-pj">
-                Welcome to BeFyn, a revolutionary web3 dapp that
-                allows donors to make direct, transparent and secure donations
-                to a wide range of trusted charities of their choosing. Our
-                platform is built on the blockchain, which ensures that all
-                donations are recorded in a tamper-proof and immutable manner.
+                BeFyn was founded by a team of healthcare professionals and
+                technology experts who shared a vision of leveraging blockchain
+                technology and zero-knowledge proofs to address the significant
+                gaps in access to quality healthcare in Africa. Our platform
+                aims to bridge the gap in access to healthcare financing and
+                insurance, ensuring that quality healthcare is available to all
+                who need it.
               </p>
 
               <h2 className="mt-12 text-3xl font-bold text-gray-900 font-pj">
                 The Mission
               </h2>
               <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                Our mission is to empower individuals, organizations, and
-                businesses to make a positive impact on the environment by
-                supporting eco-friendly causes and organizations. We believe
-                that the collective efforts of many can lead to significant
-                change and that everyone has the power to make a difference.
+                Our mission is to empower individuals and communities to access
+                quality healthcare services by providing a secure, transparent,
+                and patient-centric platform for healthcare financing and
+                insurance. We strive to create a future where everyone has
+                access to affordable and quality healthcare, regardless of their
+                background or financial situation
               </p>
-              <ul className="pl-5 mt-6 space-y-1 text-base font-normal leading-7 text-gray-700 list-disc list-outside font-pj">
-                <li>
-                  Promote adoption and accessibility of blockchain technology
-                  for environmental and sustainable causes.
-                </li>
-                <li>
-                  Enable transparency and efficiency in funding of eco-friendly
-                  projects through cryptocurrency donations.
-                </li>
-                <li>
-                  Educate and raise awareness on the potential of blockchain
-                  technology in addressing climate crisis.
-                </li>
-              </ul>
+              <h2 className="mt-12 text-3xl font-bold text-gray-900 font-pj">
+                Vision
+              </h2>
+              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+                Our vision is to become the leading healthcare financing and
+                insurance platform in Africa, leveraging technology to drive
+                innovation, transparency, and accessibility. We aim to create a
+                healthcare ecosystem that is patient-centric, sustainable, and
+                equitable for all.
+              </p>
 
               <h2 className="mt-12 text-3xl font-bold text-gray-900 font-pj">
                 How it Works
               </h2>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                BeFyn is built on the Ethereum blockchain and allows
-                donations to be made in Ether (ETH), the native cryptocurrency
-                of the Ethereum network. Our platform is designed to be easy to
-                use, even for those who are new to blockchain technology.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                Donors can browse through a list of carefully curated and vetted
-                eco-friendly charities, and select the one they wish to support.
-                They can then make a donation in Ether, and the funds will be
-                transferred directly to the charity&apos;s Ethereum wallet
-                address.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                All donations on our platform are recorded on the Ethereum
-                blockchain, providing transparency and ensuring that the funds
-                are used for the intended purpose.
-              </p>
-              <blockquote className="pl-5 mt-8 border-l-2 border-gray-900">
-                <p className="text-lg italic font-medium text-gray-900 font-pj">
-                  “In nature, nothing is perfect and everything is perfect.
-                  Trees can be contorted, bent in weird ways, and they&apos;re
-                  still beautiful.”
-                </p>
-              </blockquote>
-
-              <div className="relative mt-16">
-                <div className="absolute -inset-2">
-                  <div
-                    className="w-full h-full mx-auto opacity-30 blur-lg filter"
-                    style={{
-                      background:
-                        "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)",
-                    }}
-                  ></div>
-                </div>
-
-                <img
-                  className="relative rounded-xl"
-                  src="/images/green.jpg"
-                  alt=""
-                />
-              </div>
-
-              <h2 className="mt-16 text-3xl font-bold text-gray-900 font-pj">
-                Why Ethereum
+              <ul className="pl-5 mt-6 space-y-1 text-base font-normal leading-7 text-gray-700 list-disc list-outside font-pj">
+                <li>
+                  Contribution: Users pool resources by depositing monthly
+                  premiums, making financial aid for illness accessible and
+                  affordable.
+                </li>
+                <li>
+                  Claim: We provide transparent and fair payouts with zk proofs
+                  attestations, ensuring accurate and trustworthy claims
+                  processing.
+                </li>
+                <li>
+                  Earn: Users earn yields on deposited premiums from our staking
+                  mechanism, generating passive income and maximizing returns.
+                </li>
+              </ul>
+              <h2 className="mt-12 text-3xl font-bold text-gray-900 font-pj">
+                Our Values
               </h2>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                We chose to build our platform on the Ethereum blockchain for
-                several reasons. Firstly, Ethereum is the most widely used
-                blockchain for decentralized applications and has the largest
-                developer community. This means that there are many tools and
-                resources available for building on Ethereum.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                Ethereum is a decentralized platform, which means that it is not
-                controlled by any single entity or organization. This ensures
-                that donations on our platform cannot be censored or blocked by
-                any third party.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                Ethereum supports smart contracts, which allows us to automate
-                the donation process and ensure that funds are only released to
-                the intended recipient.
-              </p>
-
-              <h2 className="mt-16 text-3xl font-bold text-gray-900 font-pj">
-                The Future of BeFyn
-              </h2>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                At BeFyn, we are committed to continuously improving
-                and evolving our platform. We plan to expand the list of
-                charities on our platform, as well as adding new features such
-                as the ability for donors to track the impact of their
-                donations.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                In addition to our current use of the Ethereum blockchain, we
-                are also exploring the use of other blockchain networks that
-                offer cheaper transaction fees. This will allow us to reach a
-                wider range of donors and fund a greater number of sustainable
-                projects. We believe that by utilizing the latest advancements
-                in blockchain technology, we can truly &quot;Dress the
-                Earth&quot; for a sustainable future.
-              </p>
-              <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
-                We also plan to collaborate with other organizations and
-                businesses in the eco-friendly space to help raise awareness and
-                drive more support for these causes.
-              </p>
+              <ul className="pl-5 mt-6 space-y-1 text-base font-normal leading-7 text-gray-700 list-disc list-outside font-pj">
+                <li>
+                  Patient-centricity: We prioritize the needs of our users,
+                  ensuring that our platform is designed to provide easy access
+                  to healthcare financing and insurance.
+                </li>
+                <li>
+                  Transparency: We leverage blockchain technology and zk proofs
+                  to ensure that our platform is secure, transparent, and
+                  trustworthy.
+                </li>
+                <li>
+                  Innovation: We strive to drive innovation in healthcare
+                  financing and insurance, leveraging technology to create a
+                  sustainable and equitable healthcare ecosystem.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

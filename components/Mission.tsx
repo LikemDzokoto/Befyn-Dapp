@@ -5,11 +5,13 @@ const Mission = () => {
     <section className="py-12 bg-white sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl xl:text-5xl font-pj">
-            Empowering A Revolution
+          <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl xl:text-4xl font-pj">
+            Experience the Future of Insurance with Us!
           </h2>
           <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">
-            Web3 Centered Giving, Become an Earth Dresser
+            Discover a new era of insurance that puts you first. Our innovative
+            approach combines cutting-edge technology with a customer-centric
+            mindset, ensuring a seamless and rewarding experience.
           </p>
         </div>
 
@@ -21,11 +23,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Support
+              Customizable Insurance Packages
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              We are committed to providing top-notch customer service to ensure
-              a smooth experience for our donors in their giving journey.
+              Enjoy flexibility like never before! Our insurance packages are
+              tailored to your unique needs, providing comprehensive coverage
+              that adapts to your lifestyle.
             </p>
           </div>
 
@@ -36,12 +39,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Transparency
+              Befyn Insurance Claim Score
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              We believe in honesty and integrity in fundraising, ensuring all
-              donations go directly to the chosen charity with no hidden fees or
-              commissions.
+              Say goodbye to uncertainty! Our proprietary Claim Score technology
+              provides a clear and transparent assessment of your claims
+              history, empowering you to make informed decisions.
             </p>
           </div>
 
@@ -52,11 +55,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Onboarding
+              Unparalleled Transparency and Governance
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              The process of donating on our website is simple, connect your
-              wallet to start supporting the charities you care about.
+              Trust is at the core of our business. We maintain the highest
+              standards of transparency, accountability, and strict governance,
+              ensuring your peace of mind.
             </p>
           </div>
 
@@ -67,11 +71,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Product
+              Rewards from Pool Stake
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              Our platform allows donors to easily give Ethers to a variety of
-              reputable charities, all in one convenient location.
+              Be part of a shared success! Our pool stake rewards program
+              distributes a portion of the pool's returns to policyholders,
+              giving you a tangible benefit for your loyalty.
             </p>
           </div>
 
@@ -82,11 +87,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Quality
+              Intuitive User Interface
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              We ensure thorough vetting and high standards of accountability
-              and impact for all charities featured on our website.
+              Experience the ease of our user-friendly platform, designed to
+              simplify your insurance journey. Easily manage your policies,
+              track claims, and access support – all in one place!
             </p>
           </div>
 
@@ -97,11 +103,12 @@ const Mission = () => {
               alt=""
             />
             <h3 className="mt-12 text-xl font-bold text-gray-800 font-pj">
-              Result
+              Efficient Claim Proving and Pool Management
             </h3>
             <p className="mt-5 text-base text-gray-600 font-pj">
-              By using our platform, donors can trust that their contributions
-              will make a meaningful difference in the lives of those in need.
+              Our advanced technology streamlines the claims process, ensuring
+              swift and accurate resolution. Plus, our expert pool management
+              maximizes returns and minimizes risk.
             </p>
           </div>
         </div>

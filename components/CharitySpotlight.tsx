@@ -7,49 +7,12 @@ function CharitySpotlight() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 font-pj">
-              Top curated charities. Spotlighting the green effort!
+            <h2 className="text-4xl font-bold text-gray-900 font-pj">
+              Unlock the Power of Collective Support
             </h2>
             <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">
-              Meet our top favorite charities of the week
+              {/* // */}
             </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center mt-8 sm:space-x-5 sm:flex-row md:order-3 md:mt-16">
-           
-            <Link
-              href="/myinsruance"
-              title=""
-              className="
-                        inline-flex
-                        items-center
-                        justify-center
-                        w-full
-                        px-6
-                        py-3
-                        mt-4
-                        text-lg
-                        font-bold
-                        text-gray-900
-                        transition-all
-                        duration-200
-                        border-2 border-gray-400
-                        sm:w-auto sm:mt-0
-                        rounded-xl
-                        shadow-md
-                        font-pj
-                        focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
-                        hover:bg-green
-                        focus:bg-green
-                        hover:bg-opacity-90
-                        hover:text-white
-                        focus:text-white    
-                        focus:border-gray-900
-                    "
-              role="button"
-            >
-              Get started now
-            </Link>
           </div>
 
           <div className="relative mt-8 md:mt-16 md:order-2">
@@ -66,99 +29,68 @@ function CharitySpotlight() {
             <div className="relative grid max-w-lg grid-cols-1 overflow-hidden border border-gray-200 divide-y divide-gray-200 md:max-w-none md:grid-cols-3 rounded-xl md:divide-x md:divide-y-0">
               <div className="flex flex-col overflow-hidden">
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-9 lg:px-10">
-                  <div className="flex-1">
-                    <a
-                      href="https://sustyvibes.org"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="w-auto h-9"
-                        src="/images/sustyvibes.png"
-                        alt="sustyvibes"
-                      />
-                    </a>
-                  </div>
+                  <div className="flex-1"></div>
+                  <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
+                    Contribution
+                  </p>
+                  <p className="mt-1 text-base text-gray-600 font-pj">
+                    Join the Strength of Community
+                  </p>
 
                   <div className="mt-10">
                     <blockquote>
                       <p className="text-lg text-gray-900 font-pj">
-                        “Young people with a passion for a just world come
-                        together to connect and design new ways of living”
+                        By depositing monthly premiums, you become part of a
+                        larger network that makes financial aid for illness
+                        accessible and affordable for all.
                       </p>
                     </blockquote>
-                    <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
-                      Sustyvibes
-                    </p>
-                    <p className="mt-1 text-base text-gray-600 font-pj">
-                      Ibadan, Nigeria
-                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="flex flex-col overflow-hidden">
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-9 lg:px-10">
-                  <div className="flex-1">
-                    <a
-                      href="https://reswaye.org"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="w-auto h-16"
-                        src="/images/reswaye.png"
-                        alt="reswaye"
-                      />
-                    </a>
-                  </div>
+                  <div className="flex-1"></div>
+
+                  <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
+                    Claim
+                  </p>
+                  <p className="mt-1 text-base text-gray-600 font-pj">
+                    Transparency and Fairness Guaranteed
+                  </p>
 
                   <div className="mt-10">
                     <blockquote>
                       <p className="text-lg text-gray-900 font-pj">
-                        “RESWAYE is one of the biggest women-network recyclers
-                        on the coastline of the West Africa continent”
+                        Leveraging zk proofs attestations, we provide
+                        tamper-proof validation of claims, ensuring that every
+                        payout is accurate and trustworthy.
                       </p>
                     </blockquote>
-                    <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
-                      RESWAYE
-                    </p>
-                    <p className="mt-1 text-base text-gray-600 font-pj">
-                      Lagos, Nigeria
-                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="flex flex-col overflow-hidden">
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-9 lg:px-10">
-                  <div className="flex-1">
-                    <a
-                      href="https://ecobarter.africa"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="w-auto h-10"
-                        src="images/ecobarter.png"
-                        alt=""
-                      />
-                    </a>
-                  </div>
+                  <div className="flex-1"></div>
+
+                  <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
+                    Earn
+                  </p>
+                  <p className="mt-1 text-base text-gray-600 font-pj">
+                    Grow Your Wealth with Our Staking
+                  </p>
 
                   <div className="mt-10">
                     <blockquote>
                       <p className="text-lg text-gray-900 font-pj">
-                        “Earn points every time you recycle with us to redeem
-                        either as cash, health insurance”
+                        Not only do you get access to financial aid when you
+                        need it, but you also earn yields on your deposited
+                        premiums!
                       </p>
                     </blockquote>
-                    <p className="mt-8 text-lg font-bold text-gray-900 font-pj">
-                      Ecobarter
-                    </p>
-                    <p className="mt-1 text-base text-gray-600 font-pj">
-                      Abuja, Nigeria
-                    </p>
                   </div>
                 </div>
               </div>
