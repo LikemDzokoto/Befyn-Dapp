@@ -35,7 +35,7 @@ export default function Home({
 export const getServerSideProps: GetServerSideProps = async () => {
   // NOTE: change API in production!
   let latestDonationValue: number = 0;
-  const url = `https://api-goerli.etherscan.io/api?module=account&action=txlist&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
+  const url = `https://api-sepolia.etherscan.io/api?module=account&action=txlist&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
   try {
     const response = await fetch(url);
     const data = await response.json();

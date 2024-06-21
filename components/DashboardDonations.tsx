@@ -8,32 +8,7 @@ import { Charity } from "@/typings";
 function DefaultDonation() {
   return (
     <div className="grid grid-cols-3 py-4 gap-y-4 lg:gap-0 lg:grid-cols-6">
-      {/* <div className="col-span-2 px-4 lg:py-4 sm:px-6 lg:col-span-1">
-        <span className="text-xs font-medium text-green-900 bg-green-100 rounded-full inline-flex items-center px-2.5 py-1">
-          <svg
-            className="-ml-1 mr-1.5 h-2.5 w-2.5 text-green-500"
-            fill="currentColor"
-            viewBox="0 0 8 8"
-          >
-            <circle cx="4" cy="4" r="3"></circle>
-          </svg>
-          Completed
-        </span>
-      </div> */}
-
-      {/* <div className="col-span-2 px-4 lg:py-4 sm:px-6 lg:col-span-1">
-        <span className="text-xs font-medium text-yellow-900 bg-yellow-100 rounded-full inline-flex items-center px-2.5 py-1">
-          <svg
-            className="-ml-1 mr-1.5 h-2.5 w-2.5 text-yellow-400"
-            fill="currentColor"
-            viewBox="0 0 8 8"
-          >
-            <circle cx="4" cy="4" r="3"></circle>
-          </svg>
-          Pending
-        </span>
-      </div> */}
-
+     
       <div className="col-span-2 px-4 lg:py-4 sm:px-6 lg:col-span-1">
         <span className="text-xs font-medium text-red-900 bg-red-100 rounded-full inline-flex items-center px-2.5 py-1">
           <svg
@@ -126,31 +101,7 @@ function Donation({
         </span>
       </div>
 
-      {/* <div className="col-span-2 px-4 lg:py-4 sm:px-6 lg:col-span-1">
-        <span className="text-xs font-medium text-yellow-900 bg-yellow-100 rounded-full inline-flex items-center px-2.5 py-1">
-          <svg
-            className="-ml-1 mr-1.5 h-2.5 w-2.5 text-yellow-400"
-            fill="currentColor"
-            viewBox="0 0 8 8"
-          >
-            <circle cx="4" cy="4" r="3"></circle>
-          </svg>
-          Pending
-        </span>
-      </div> */}
-
-      {/* <div className="col-span-2 px-4 lg:py-4 sm:px-6 lg:col-span-1">
-        <span className="text-xs font-medium text-red-900 bg-red-100 rounded-full inline-flex items-center px-2.5 py-1">
-          <svg
-            className="-ml-1 mr-1.5 h-2.5 w-2.5 text-red-500"
-            fill="currentColor"
-            viewBox="0 0 8 8"
-          >
-            <circle cx="4" cy="4" r="3"></circle>
-          </svg>
-          Canceled
-        </span>
-      </div> */}
+      
 
       <div className="px-4 text-right lg:py-4 sm:px-6 lg:order-last">
         <button
@@ -176,7 +127,7 @@ function Donation({
 
       <div className="px-4 lg:py-4 sm:px-6 lg:col-span-2">
         <a
-          href={`https://goerli.etherscan.io/address/${address}#internaltx`}
+          href={`https://sepolia.etherscan.io/address/${address}#internaltx`}
           target="_blank"
           rel="noreferrer"
         >
@@ -233,29 +184,6 @@ function DashboardDonations({
             </p>
           </div>
 
-          {/* <div className="mt-4 sm:mt-0">
-            <a
-              href="#"
-              title=""
-              className="inline-flex items-center text-xs font-semibold tracking-widest text-gray-500 uppercase hover:text-gray-800"
-            >
-              See all Transactions
-              <svg
-                className="w-4 h-4 ml-2"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M9 5l7 7-7 7"
-                ></path>
-              </svg>
-            </a>
-          </div> */}
         </div>
       </div>
 

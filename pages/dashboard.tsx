@@ -25,10 +25,10 @@ function Dashboard({
   return (
     <>
       <Head>
-        <title>People First - Dashboard</title>
+        <title>BeFyn - Dashboard</title>
         <meta
           name="description"
-          content="The Green Charity Transparency Platform"
+          content="# The permissionless health financing and claim proving insurance protocol"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -37,9 +37,9 @@ function Dashboard({
         <div className="py-6">
           <div className="px-4 mx-auto sm:px-6 md:px-8">
             <div className="md:items-center md:flex">
-              <p className="text-base font-bold text-gray-800">Hello, You -</p>
+              <p className="text-base font-bold text-gray-800">Hi, the  -</p>
               <p className="mt-1 text-base font-medium text-gray-500 md:mt-0 md:ml-2">
-                here&apos;s what&apos;s happening on People First
+                here's&apos;s what&apos;s happening on BeFyn
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   let donations: any[] = [];
 
   try {
-    const url = `https://api-goerli.etherscan.io/api?module=account&action=txlist&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
+    const url = `https://api-sepolia.etherscan.io/api?module=account&action=txlist&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
     const response = await fetch(url);
     const data = await response.json();
     donations = data.result.filter((tx: any) => {
@@ -79,7 +79,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   let txinternal: any[] = [];
   await sleep(900);
   try {
-    const url = `https://api-goerli.etherscan.io/api?module=account&action=txlistinternal&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
+    const url = `https://api-sepolia.etherscan.io/api?module=account&action=txlistinternal&address=${CONTRACT_ADDRESS}&startblock=0&endblock=99999999&sort=desc&apikey=${ETHER_SCAN_API_KEY}`;
     const response = await fetch(url);
     const data = await response.json();
     txinternal = data.result;

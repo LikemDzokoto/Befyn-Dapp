@@ -65,9 +65,9 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
                 method: "wallet_addEthereumChain",
                 params: [
                   {
-                    chainId: "0xAA36A7",
-                    chainName: "goerli Test network",
-                    rpcUrls: ["hhttps://eth-sepolia.g.alchemy.com/v2/x2hC9QfiIYGJf4mQWfu6bQgLvrOegki2"],
+                    chainId: "0xaa36a7",
+                    chainName: "sepolia Test network",
+                    rpcUrls: ["https://eth-sepolia.g.alchemy.com/v2/x2hC9QfiIYGJf4mQWfu6bQgLvrOegki2"],
                     blockExplorerUrls: ["https://sepolia.etherscan.io/"],
                     nativeCurrency: {
                       symbol: "sepoliaETH",

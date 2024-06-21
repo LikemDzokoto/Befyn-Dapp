@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import {
-  CHARITY_REGISTRY_CONTRACT_ABI,
+  CONTRACT_ABI,
   CONTRACT_ADDRESS,
 } from "../utils/constants";
 
@@ -11,7 +11,7 @@ const ETHER_SCAN_API_KEY = process.env.ETHER_SCAN_API_KEY;
 // provider
 function getProvider() {
   const alchemyProvider = new ethers.providers.AlchemyProvider(
-    "goerli",
+    "sepolia",
     API_KEY
   );
   return alchemyProvider;
@@ -58,7 +58,7 @@ export function loadContract() {
 
     const contract = new ethers.Contract(
       CONTRACT_ADDRESS,
-      CHARITY_REGISTRY_CONTRACT_ABI,
+      CONTRACT_ABI,
       alchemyProvider
     );
 
@@ -77,7 +77,7 @@ export function loadContractWithSigner() {
     if (signer) {
       const contract = new ethers.Contract(
         CONTRACT_ADDRESS,
-        CHARITY_REGISTRY_CONTRACT_ABI,
+        CONTRACT_ABI,
         signer
       );
 

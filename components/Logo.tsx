@@ -8,10 +8,8 @@ function Logo() {
       title=""
       className="flex items-center space-x-1 hover:opacity-75"
     >
-      <img className=" w-12 h-12" src="/images/befyn.jpg" alt="" />
-      <h1 className=" font-inter text-green-rich font-semibold tracking-wider">
-       
-      </h1>
+      <img className=" w-200 h-50" src="/images/befynpro.png" alt="" />
+      <h1 className=" font-inter text-green-rich font-semibold tracking-wider"></h1>
     </Link>
   );
 }

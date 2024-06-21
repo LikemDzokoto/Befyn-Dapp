@@ -39,10 +39,10 @@ function Causes({ charities }: { charities: Charity[] }) {
   return (
     <div>
       <Head>
-        <title>People Reserve - Our Causes</title>
+        <title>Befyn - Causes</title>
         <meta
           name="description"
-          content="The Green Charity Transparency Platform"
+          content="# The permissionless health financing and claim proving insurance protocol"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
