@@ -146,7 +146,7 @@ function Charity({
             rel="noreferrer"
             className="md:whitespace-nowrap inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 bg-transparent border border-gray-300 rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:border-gray-900 hover:bg-gray-900 hover:text-white"
           >
-            See More
+       
           </a>
 
           {active ? (
@@ -202,7 +202,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
 
           <span className="px-2 py-1.5 text-xs font-medium text-white rounded bg-red-400">
             {" "}
-            active{" "}
+            {/* active{" "} */}
           </span>
         </div>
 
@@ -225,7 +225,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             <div className="flex items-center space-x-1">
               <a href="#" title="">
                 {" "}
-                Premium Insurance B{" "}
+                Premium Insurance A{" "}
               </a>
               {isHovered ? (
                 <img
@@ -243,7 +243,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             </div>
           </div>
           <p className="mt-2 text-sm font-medium text-green">
-           0.02ETH
+           0.01ETH
           </p>
         </div>
 
@@ -289,7 +289,7 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
 
           <span className="px-2 py-1.5 text-xs font-medium text-white rounded bg-red-400">
             {" "}
-            active{" "}
+            {/* active{" "} */}
           </span>
         </div>
 
@@ -330,17 +330,17 @@ export function DefaultCharity({ toggleModal }: { toggleModal: () => void }) {
             </div>
           </div>
           <p className="mt-2 text-sm font-medium text-green">
-           0.01ETH
+           0.02ETH
           </p>
         </div>
 
         <div className="flex items-center justify-between mt-4 space-x-4">
-          <button
+          {/* <button
             type="button"
             className="md:whitespace-nowrap inline-flex items-center justify-center w-full px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 bg-transparent border border-gray-300 rounded md:px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:border-gray-900 hover:bg-gray-900 hover:text-white"
           >
             
-          </button>
+          </button> */}
 
           {/* <button
             type="button"
